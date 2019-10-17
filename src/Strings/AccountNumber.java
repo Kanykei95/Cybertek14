@@ -9,7 +9,7 @@ public class AccountNumber {
 
         String accountNumber = input.nextLine();
         String firstNumber = accountNumber.substring(0,1);
-        boolean invalid  = firstNumber.equals("5") || =! firstNumber.equals("2");
+        boolean invalid  = firstNumber.equals("5") || !firstNumber.equals("2");
 
         if (invalid) {
             System.out.println("Invalid account number");
