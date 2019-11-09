@@ -23,3 +23,4 @@ public class CapName {
 
     }
 }
+            //2) Write a program that will generate a random uppercase letter. Print the letter.

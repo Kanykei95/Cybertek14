@@ -15,7 +15,7 @@ public class AccountNumber {
             System.out.println("Invalid account number");
         }else{
 
-            if(firstNumber.equals("5")&&accountNumber.length( )==10){
+            if(firstNumber.equals("5") && accountNumber.length( )==10 ){
                 System.out.println("valid 5 account");
             } else {
                 System.out.println("invalid 5 account");
@@ -36,4 +36,9 @@ public class AccountNumber {
 
     }
 }
-        /////////
+        //User is asked to enter an account number. You will check if these account numbers are valid.
+//> If the account number begins with a “2” the account number should be 7 characters long
+//> If the account number begins with a “5” the account number should be 10 characters long
+//—> If the account number does not begin with a 2 or a 5 OR the account number lengths do not meet the expected results print “ Invalid account number”
+//
+//
