@@ -12,6 +12,9 @@ public class MethodReturnISEven {
     public boolean isEven(int n) {
         if(n%2==0){
             System.out.println("Even");
+            System.out.println("Even");
+
+
 
         }else{
             System.out.println("Negative");
